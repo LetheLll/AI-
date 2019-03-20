@@ -73,7 +73,8 @@ void solve()
 }
 int main()
 {
-    ios::sync_with_stdio(false);
+    //ios::sync_with_stdio(false);
+    freopen("in.txt","r",stdin);
     while(cin>>N){
         if(N==0) break;
         for(int i=1;i<=N;i++)
